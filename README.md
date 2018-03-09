@@ -2,7 +2,7 @@
 
 Git clone to the directory of your choice, cd into the project folder and NPM install. 
 
-Add video and image folder with same name.
+Add video and image folder with same name, in public folder with the name of images and video
 
 Run npm start and navigate to localhost:3000
 

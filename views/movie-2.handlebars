@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="/stylesheets/video.css">
+
+<a href="/">
+  <i class="fa fa-home"></i>
+</a>
+
+<h1>{{ title }}</h1
+
+
+
+<section class="row">
+      <!-- <div class="small-3 columns"></div> -->
+      <div class="video-container">
+        <i class="fa fa-volume-off vol-indicator"></i><!-- fa-volume-up on mouseover -->
+
+
+        <video class="responsive" autoplay muted poster="images/movie-1.jpg">
+
+          <!-- we should do fallbacks here, but for now we'll just work with mp4 -->
+          <source src="video/movie-2.mp4" type="video/mp4">
+          Your browser doesn't support video?!? that sucks.
+        </video>
+
+        <div class="vid-overlay">
+          <i class="fa fa-repeat" role="button"></i>
+          <p>replay video</p>
+        </div>
+      </div>
+    </section>
+
+
+
+        <div class="para">
+          <p>{{ p }}</p>
+        </div>
+
+
+        <div class="socialIcons">
+                <i class="fa fa-facebook-official has-tip" data-tooltip aria-haspopup="true" title="Post this"></i>
+                <i class="fa fa-pinterest-p has-tip" data-tooltip aria-haspopup="true" title="pin this"></i>
+                <i class="fa fa-thumbs-up has-tip" data-tooltip aria-haspopup="true" title="Like this"></i>
+                <i class="fa fa-twitter has-tip" data-tooltip aria-haspopup="true" title="Tweet this"></i>
+        </div>
+        <div class="star">
+          <h2>Rating</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </div>
+
+
+<script type="text/javascript" src="/javascripts/video.js">
+
+</script>
